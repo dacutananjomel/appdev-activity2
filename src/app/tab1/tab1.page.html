@@ -1,17 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <ion-title>
+    <h2>My Profile</h2>
+  </ion-title>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+  <img src="assets/k.jpg"/>
+  <div class="card-title">Jomel C. Dacutanan</div>
+</ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-list>
+  <ion-item>
+    <ion-icon name="book" slot="start"></ion-icon>
+    <ion-label><h4>Studied Bachelor of Science in Information Tachnology at Eastern Visayas State University-EVSU CC</h4></ion-label>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <ion-icon name="home" slot="start"></ion-icon>
+    <ion-label>From Eastern Visayas</ion-label>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <ion-icon name="location" slot="start"></ion-icon>
+    <ion-label>Brgy. Canal Carigara Leyte</ion-label>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <ion-icon name="heart" slot="start"></ion-icon>
+    <ion-label>Single</ion-label>
+  </ion-item>
+</ion-list>
+
 </ion-content>
